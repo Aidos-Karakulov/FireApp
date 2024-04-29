@@ -4,8 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.fireapp.view.MainActivity
 import com.example.fireapp.databinding.ActivitySignUpBinding
+import com.example.fireapp.view.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class SignUpActivity : AppCompatActivity() {
@@ -27,7 +27,7 @@ binding.registerButton.setOnClickListener{
     val email:String = binding.email.text.toString()
     val username:String = binding.userName.toString()
     val password:String = binding.password.toString()
-    val repeatePassword:String = binding.repeatPassword.text.toString()
+    val repeatePassword:String = binding.repeatPassword.toString()
 
     if(email.isEmpty()|| username.isEmpty()|| password.isEmpty()|| repeatePassword.isEmpty()){
         Toast.makeText(this,"Please Fill all details",Toast.LENGTH_SHORT).show()
