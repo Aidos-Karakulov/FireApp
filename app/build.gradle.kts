@@ -63,6 +63,10 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.12.0")
     implementation("androidx.test.ext:junit-ktx:1.1.5")
     implementation("androidx.test:monitor:1.6.1")
+    implementation("com.android.volley:volley:1.2.1")
+    implementation("androidx.privacysandbox.tools:tools-core:1.0.0-alpha08")
+    implementation("androidx.games:games-activity:3.0.3")
+    implementation("com.android.tools.compose:compose-preview-renderer:0.0.1-alpha01")
     androidTestImplementation("junit:junit:4.12")
 
 }

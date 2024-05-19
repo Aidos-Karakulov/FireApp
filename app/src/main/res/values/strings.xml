@@ -53,4 +53,25 @@
     <string name="hey">What\'s app</string>
     <string name="sign_in">Sign In</string>
     <string name="congrat">Welcome</string>
+
+    //Weather checker
+    <string name="date_time">21 April 2024, 13:58 PM</string>
+    <string name="city_country">Almaty, Kazakhstan</string>
+    <string name="weather_position">Clear Sky</string>
+    <string name="temperature">17°C</string>
+    <string name="min_temp">Min Temp: 05:05 AM</string>
+    <string name="max_temp">Max Temp: 13:00 PM</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunrise_time">06:40 AM</string>
+    <string name="sunset">Sunset</string>
+    <string name="sunset_time">06:40 AM</string>
+    <string name="wind">Wind</string>
+    <string name="wind_time">00:00 AM</string>
+    <string name="pressure">Pressure</string>
+    <string name="pressure_time">06:40 AM</string>
+    <string name="humidity">Humidity</string>
+    <string name="humidity_time">06:40 AM</string>
+    <string name="owner">Created By</string>
+    <string name="aidos">Aidos</string>
+    <string name="error">Something went wrong</string>
 </resources>
